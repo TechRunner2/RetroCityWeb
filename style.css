@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(86, 105, 110);
+    font-family: sans;
+}
+
+/* Header Bar */
+#logo{
+    float:left;
+    color: red;
+    margin: inherit;
+    margin-top: 5px;
+    text-shadow: 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
+}
+
+#title{
+    color: red;
+    text-shadow: 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.nav li{
+    display: inline;
+    margin: .3em;
+}
+.nav ul{
+    background-color: black;
+}
+.nav a{
+    color: white;
+    font-size: 30px;
+    border-bottom: dotted 2px white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: red;
+
+}
+.nav{
+    margin: 0;
+    background-color: black;
+    height: 50px;
+    text-align: right;
+    padding-right: 2em;
+    padding-top: 5px;
+    border-bottom: solid red 4px;
+}
+
+/* Content */
+.content{
+    margin: 1em;
+    background-color: white;
+    height: 100%;
+}
