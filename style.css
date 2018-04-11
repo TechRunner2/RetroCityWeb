@@ -11,6 +11,7 @@ html, body{
     float:left;
     color: red;
     margin: inherit;
+    margin-left: 1em;
     margin-top: 5px;
     text-shadow: 1px 1px white, -1px -1px white, -1px 1px white, 1px -1px white;
 }
