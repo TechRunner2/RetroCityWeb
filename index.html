@@ -47,6 +47,19 @@
                 <p>Discord: ###########</p>
                 <p>IRC: ###########</p>
                 <p>Email: ######@#####.###</p>
+                <p>Or the contact form</p>
+                <form>
+                    <label for="name">Name</labe>
+                    <input id='name' type="text" name="name">
+                    <label for="_replyto">Email</label>
+                    <input id="email" type="email" name="_replyto">
+                    <br>
+                    <label for="content">Message</label>
+                    <br>
+                    <textarea id="message" name="content" rows="8" cols="50"></textarea>
+                    <br>
+                    <input type="submit" value="Send" onclick="send_email()">
+                </form>
             </div>
         </div>
         </div>
